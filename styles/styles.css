@@ -1,0 +1,334 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+}
+
+.text{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 100%;
+    height: 30%;
+}
+
+.title{
+    margin-top: 2%;
+    margin-left: 10%;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 32px;
+}
+
+
+.description{
+    margin-top: 2%;
+    margin-left: 10%;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #848199;
+}
+
+.cards{
+    display: flex;
+    width: 90%;
+    height: 70%;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+
+.cardItems{
+    display: flex;
+    height: 75%;
+    width: 18%;
+    border-radius: 10px;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding-left: 2%;
+    flex-direction: column;
+}
+
+.cardItemsSelect{
+    display: flex;
+    height: 75%;
+    width: 18%;
+    border-radius: 30px;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding-left: 2%;
+    flex-direction: column;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 50px 30px -5px;
+    background-color: #FF8E3C;
+}
+
+.mostPopular{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 32%;
+    right: 32%;
+    height: 3%;
+    width: 6%;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color: rgba(252, 252, 252, 0.76);
+    font-weight: bolder;
+    border-radius: 30px;
+    font-size: 90%;
+}
+
+.price{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+    width: 30%;
+    cursor: default;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.time{
+    margin-left: 10%;
+    color: #8c8a9c;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+h2{
+    color: #373737;
+}
+
+.titlePlans{
+    cursor: default;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #373737;
+}
+
+.descript{
+    color: #8c8a9c;
+    cursor: default;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    padding-right: 5%;
+}
+
+.descriptSelect{
+    color: #373737;
+    cursor: default;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    padding-right: 5%;
+}
+
+.check{
+    display: flex;
+    align-items: center;
+    width: 90%;
+    height: 5%;
+    cursor: default;
+}
+
+.campcheck{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #d5d3e2;
+    width: 10%;
+    height: 100%;
+    border-radius: 50%;
+    cursor: default;
+}
+
+.nocampcheck{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #efeef5;
+    width: 10%;
+    height: 100%;
+    border-radius: 50%;
+    color: #d4d4da;
+    cursor: default;
+}
+
+.textPlans{
+    margin-left: 8%;
+    color: #8c8a9c;
+    cursor: default;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.notextPlans{
+    margin-left: 8%;
+    color: #e1dfe9;
+    cursor: default;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.textPlansS{
+    margin-left: 8%;
+    color: #373737;
+    cursor: default;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.plan{
+    display: flex;
+    width: 90%;
+    height: 10%;
+    justify-content: center;
+    align-items: center;
+    cursor: default;
+}
+
+.btnPlan{
+    color: #FF8E3C;
+    height: 60%;
+    width: 40%;
+    font-weight: bolder;
+    border: none;
+    cursor: pointer;
+    font-size: large;
+}
+
+.btnPlanSelect{
+    color: white;
+    background-color: #373737;
+    height: 80%;
+    width: 100%;
+    border-radius: 50px;
+    font-weight: bolder;
+    border: none;
+    cursor: pointer;
+    font-size: large;
+}
+
+@media (max-width: 1450px){
+    .mostPopular{
+        top: 35%;
+        right: 31.6%;
+        font-size: 50%;
+    }
+
+    .price{
+        margin-left: 15%;
+    }
+}
+
+
+@media (max-width: 913px) {
+    .cards{
+        flex-direction: column;
+        align-items: center;
+        height: 2500px;
+    }
+
+    .cardItems{
+        width: 60%;
+        height: 50%;
+    }
+
+    .cardItemsSelect{
+        width: 70%;
+        height: 50%;
+        box-shadow: rgba(0, 0, 0, 0.3) 50px 00px 30px -5px;
+        order: -2;
+    }
+
+    .mostPopular{
+        width: 20%;
+        right: 25%;
+        top: 35%;
+    }
+
+    .check{
+        margin-left: 10%;
+    }
+
+    .price{
+        margin-left: 9%;
+    }
+
+    .titlePlans{
+        margin-left: 46%;
+    }
+
+    .descript{
+        margin-left: 10%;
+    }
+
+    .descriptSelect{
+        margin-left: 10%;
+    }
+
+    .btnPlanSelect{
+        margin-left: 10%;
+    }
+}
+
+
+@media (max-width: 450px) {
+    .cards{
+        flex-direction: column;
+        align-items: center;
+        height: 2500px;
+    }
+
+    .cardItems{
+        width: 90%;
+        height: 60%;
+    }
+
+    .cardItemsSelect{
+        order: -2;
+        width: 90%;
+        height: 40%;
+    }
+
+    .mostPopular{
+        width: 30%;
+        right: 15%;
+    }
+
+    .check{
+        margin-left: 10%;
+    }
+
+    .price{
+        margin-left: 12%;
+    }
+
+    .titlePlans{
+        margin-left: 30%;
+    }
+
+    .descriptSelect{
+        margin-left: 10%;
+    }
+
+    .btnPlanSelect{
+        margin-left: 10%;
+    }
+}
